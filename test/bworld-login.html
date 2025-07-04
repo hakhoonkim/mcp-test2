@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="b월드 로그인 - SK브로드밴드 b world 공식 로그인 페이지. 웹접근성, 반응형, SEO 최적화.">
+  <meta name="keywords" content="b월드, b world, SK브로드밴드, 로그인, 회원가입, 아이디 찾기, 비밀번호 찾기">
+  <meta name="author" content="SK브로드밴드">
+  <title>b월드 로그인 | SK브로드밴드</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-container" aria-label="b월드 로그인 영역">
+    <h1 class="logo" tabindex="0">B world</h1>
+    <h2 class="login-title" tabindex="0">로그인</h2>
+    <form autocomplete="on" aria-label="로그인 폼" role="form" novalidate>
+      <div class="form-group">
+        <label for="userId">아이디</label>
+        <input type="text" id="userId" name="userId" placeholder="아이디를 입력하세요" required aria-required="true" autocomplete="username">
+      </div>
+      <div class="form-group">
+        <label for="userPw">패스워드</label>
+        <input type="password" id="userPw" name="userPw" placeholder="비밀번호를 입력하세요" required aria-required="true" autocomplete="current-password">
+      </div>
+      <button type="submit" class="login-btn" aria-label="로그인">로그인</button>
+    </form>
+    <nav class="login-links" aria-label="로그인 관련 링크">
+      <a href="#" tabindex="0">아이디 찾기</a>
+      <a href="#" tabindex="0">비밀번호 찾기</a>
+      <a href="#" tabindex="0">회원가입</a>
+    </nav>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
